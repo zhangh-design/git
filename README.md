@@ -1,11 +1,11 @@
 # git
 Linux命令：
-	pwd (命令，显示当前所在目录结构）
-	cry+ c 在git 命令窗口中会放弃当前行，直接跳到下一个命令输入行上面
-	cat file (file 某个文件的名称，查看当前文件的内容）
-	cd ~ (切换到当前系统用户所在目录）/c/users/用户
-	cd .. 返回上一层
-	ls 查看文件目录中的文件列表
+- pwd (命令，显示当前所在目录结构）
+- cry+ c 在git 命令窗口中会放弃当前行，直接跳到下一个命令输入行上面
+- cat file (file 某个文件的名称，查看当前文件的内容）
+- cd ~ (切换到当前系统用户所在目录）/c/users/用户
+- cd .. 返回上一层
+- ls 查看文件目录中的文件列表
 	
 语句提示：
 	Working Tree --工作区
@@ -71,10 +71,11 @@ git目录结构：
 	.git ：git版本控制的目录, 本地版本控制中心
 
 Git 如何上传一个空文件夹：必须在空文件夹下面放一个.gitkeep文件在该文件中写下如下内容(可选)：
+```
 # Ignore everything in this directory 
 * 
 # Except this file !.gitkeep
-
+```
 	
 git的状态：
 	已管理			 工作区
